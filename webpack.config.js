@@ -37,7 +37,7 @@ module.exports = {
     },
     plugins: [
       new ExtractTextPlugin({
-          filename: "./app.css",
+          filename: "app.css",
           chunkFilename: "app.css"
       })
     ],
